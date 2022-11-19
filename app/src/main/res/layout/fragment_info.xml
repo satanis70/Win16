@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".InfoFragment">
+
+    <TextView
+        android:id="@+id/text_view_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="What is the essence of the game “Aviator” from Pin Up Casino?"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></TextView>
+
+    <TextView
+        android:id="@+id/text_view_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:padding="8dp"
+        android:text="We have already mentioned the simple and straightforward mechanics of this game. You are not going to fly a plane. Your main task is to click the button before the plane flies away. If you have never played Aviator in Pin Up Casino, you can’t even imagine how pleasurable and fun the game is. The feelings that you have when you play it can’t even be compared with those you have when playing most online slots. In Aviator, you have control over the process, while in most slots you only watch the game flow without getting into action. Before the round starts, you need to choose the bet amount. Pin Up Aviator allows you to start with only 0.10 coins. The maximum amount that you can win is 100x of your stake sum. Therefore, if your bet amount is Rs. 700, for instance, you can win up to INR 70,000 in one single round. The game mechanics are pretty simple. After placing a bet, the round starts. The plane takes off, and the multiplier is launched while the aircraft is climbing. You can stop the round at any time by clicking the “Cash out” button. Your winnings will be calculated according to the current multiplier level. If, for instance, your bet amount was INR 100 and you stopped the game when the multiplier was 2.5x, your payout would be INR 250. You should also keep in mind that if the plane flies away, you win nothing and may even lose your bet amount."
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_view_title" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
